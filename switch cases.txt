@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main(){
+
+
+
+int age;
+
+printf("press 1 if you are above 18 years \n");     
+printf("press 2 if you are below 18 years \n");     
+scanf("%d", &age);
+
+switch(age){
+
+    case 1: 
+        printf("YOU CAN COME TO THE PARTY \n");
+        break;
+
+     case 2: 
+        printf("YOU CANT COME TO THE PARTY \n");
+        break;
+
+        default : printf("not valid");
+
+
+}
+
+
+    return 0;
+}
