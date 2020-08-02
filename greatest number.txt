@@ -1,0 +1,49 @@
+#include <stdio.h>
+int main()
+{
+
+    int num1, num2, num3, num4;
+
+    printf("ENTER THE FIRST NUMBER \n");
+    scanf("%d", &num1);
+
+    printf("ENTER THE SECOUND NUMBER \n");
+    scanf("%d", &num2);
+
+    printf("ENTER THE THIRD NUMBER \n");
+    scanf("%d", &num3);
+
+    printf("ENTER THE FOURTH NUMBER \n");
+    scanf("%d", &num4);
+
+    if ((num1 > num2) && (num1 > num3) && (num1 > num4))
+    {
+
+        printf(" %d is GREATER \n", num1);
+    }
+
+    if ((num2 > num1) && (num2 > num3) && (num2 > num4))
+    {
+        /* code */
+        printf("%d is GREATER \n", num2);
+    }
+
+    if ((num3 > num2) && (num3 > num1) && (num3 > num4))
+    {
+
+        printf("%d is GREATER \n", num3);
+    }
+    if ((num4 > num2) && (num4 > num3) && (num4 > num1))
+    {
+
+        printf("%d is GREATER \n", num4);
+    }
+
+    else
+    {
+
+        printf("INVALID NUMBER \n");
+    }
+
+    return 0;
+}
