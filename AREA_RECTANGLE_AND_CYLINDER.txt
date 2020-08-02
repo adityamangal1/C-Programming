@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main(){
+    
+// int length;
+// int breadth;
+                   
+
+// length = 2; 
+// breadth = 4 ;
+// //  printf("enter the length \n");        // by user input
+// // printf("enter the breadth \n");      // by user input
+// scanf("%d", &length);
+// scanf("%d", &breadth);
+
+// int area_rectangle;
+// area_rectangle=length * breadth;
+
+// printf("HELLO\n");
+// printf("the area of your rectangle is %d\n", area_rectangle);
+
+// for cylinder
+int radius;        // for cylinder
+int height;          // for cylinder
+ printf("enter the radius for CYLINDER \n");        // by user input
+scanf("%d", &radius);
+ printf("enter the height for CYLINDER \n");        // by user input
+scanf("%d", &height);
+
+int area_volume;
+area_volume = 3.14 * radius * radius * height;       
+printf("HELLO\n");
+printf("The area of your VOLUME is %d\n", area_volume);
+
+    return 0;
+}
