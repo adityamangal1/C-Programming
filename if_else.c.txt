@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main(){
+    
+    int physics;
+    int chemistry;
+    int math;
+    float total;
+
+    printf("enter physics marks \n");
+    scanf("%d", &physics);
+
+    printf("enter chemistry marks \n");
+    scanf("%d", &chemistry);
+
+    printf("enter math marks \n");
+    scanf("%d", &math);
+
+    total = (physics + math + chemistry)/3;
+
+    if((total<40) || physics<33 || chemistry<33 || math<33){
+
+        printf("YOU ARE FAIL AS U HAVE LOW MARKS \n", total);
+         
+    }
+    else
+    {
+        printf("CONGRATS \n");
+        printf("YOU ARE PASSED \n");
+    }
+    
+
+    return 0;
+}
