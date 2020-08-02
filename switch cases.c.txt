@@ -4,23 +4,29 @@ int main(){
 
 
 
-int age;
+int rating;
 
-printf("press 1 if you are above 18 years \n");     
-printf("press 2 if you are below 18 years \n");     
-scanf("%d", &age);
+printf("enter the rating you wamt to give \n");     
+scanf("%d", &rating);
 
-switch(age){
+switch(rating){
 
-    case 1: 
-        printf("YOU CAN COME TO THE PARTY \n");
+    case 1: printf("you give 1 rating \n");
         break;
 
-     case 2: 
-        printf("YOU CANT COME TO THE PARTY \n");
+     case 2: printf("you give 2 rating \n");
+        break;
+         
+     case 3: printf("you give 3 rating \n");
         break;
 
-        default : printf("not valid");
+    case 4: printf("you give 4 rating \n");
+        break;
+
+    case 5: printf("you give 5 rating \n");
+        break;
+
+    default : printf("not valid rating");
 
 
 }
