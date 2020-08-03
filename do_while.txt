@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    
+    int i=0; 
+    int n;
+
+    printf("ENTER THE NUMBER \n ");
+    scanf("%d", &n);
+
+
+    do{
+
+      printf("NUMBER: %d \n",i+1);
+      i++;
+
+ }while(i<n);
+      
+
+    return 0;
+}
