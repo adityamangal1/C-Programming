@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    
+
+    int celcius;
+     int convert;
+    printf("Enter the  number: \n");
+    scanf("%d", &celcius);
+
+
+      convert = ((celcius * 9/5) + 32);  // formula
+      printf("HELLO \n");
+      printf("FARENHEIT: %dF \n", convert);
+
+    return 0;
+}
