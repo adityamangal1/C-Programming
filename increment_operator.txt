@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+
+
+int i;
+i=3;
+
+i++;
+i++;     //increment operator
+i++;
+// i=6
+++i;
+printf("AFTER INCREMENT NUMBER IS %d \n", ++i);
+printf("AFTER INCREMENT NUMBER IS %d \n", i);
+
+    return 0;
+}
