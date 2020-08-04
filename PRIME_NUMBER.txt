@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int n;
+    printf("ENTER THE NUMBER \n ");
+    scanf("%d", &n);
+
+    int prime;
+    // for(int i=0;i<n;i++){
+    if (n % 2 == 0)
+    {
+        prime = 0;
+        // break;
+    }
+
+    if (prime == 0)
+    {
+        printf("This is not a prime number");
+    }
+    else
+    {
+        printf("This is a prime number");
+    }
+    return 0;
+}
