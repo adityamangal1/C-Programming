@@ -1,0 +1,55 @@
+#include<stdio.h>
+
+
+int add(int a, int b){
+
+    int sum=a+b;
+     printf("THE SUM IS %d\n",sum);
+}
+
+int sub(int a, int b){
+
+    int result;
+    result=a-b;
+     printf("THE SUM IS %d\n",result);
+}
+
+int mult(int a, int b){
+
+    int result;
+    result = a*b;
+     printf("THE SUM IS %d\n",result);
+
+}
+int main(){
+
+    int num1;
+    int num2;
+    int n;
+
+    printf("ENTER THE NUM1 AND NUM2: \n");
+    scanf("%d", &num1);
+    scanf("%d", &num2);
+
+    printf("PRESS 1 for addition.\n");
+    printf("PRESS 2 for subtraction.\n");
+    printf("PRESS 3 for multiplcation.\n");
+    scanf("%d", &n);
+    
+
+    
+if(n==1){
+
+    add(num1, num2);
+}
+if(n==2){
+
+    sub(num1, num2);
+}
+if(n==3){
+
+    mult(num1, num2);
+}
+
+    return 0;
+}
