@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+
+int swap(int *a, int *b) {
+
+    int temp;
+    temp=*a;
+    *a=*b;
+    *b=temp;
+
+
+
+
+}
+int main() {
+    int NUM1, NUM2;
+
+    printf("Enter THE NUMBER 1:\n");
+    scanf("%d", &NUM1);
+    printf("Enter THE NUMBER 2:\n");
+    scanf("%d", &NUM2);
+
+    swap(&NUM1, &NUM2);
+
+    printf("AFTER SWAPPING NUMBER1 is: %d\n", NUM1);
+    printf("AFTER SWAPPING NUMBER2 is: %d\n", NUM2);
+
+
+
+
+    return 0;
+}
