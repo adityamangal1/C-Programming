@@ -1,18 +1,30 @@
 #include<stdio.h>
 
-void sumAndAvg(int a, int b, int *sum, float *avg){
-    *sum = a +b;
-    *avg = (float)(*sum)/2;
-}
 
+int mangal(int a, int b,int *sum,int *sub,int *mult,float *div){
+
+    *sum = a+b;
+    *sub = a-b;
+    *mult = a*b;
+    *div = (float)a/b;
+}
 int main(){
-    int i, j, sum;
-    float avg;
-    i = 3;
-    j = 6;
-    sumAndAvg(i, j, &sum, &avg);
-    printf("The value of sum is %d \n", sum);
-    printf("The value of avg is %f \n", avg);
     
+
+    int num1,num2,sum,mult,sub;
+    float div;
+    printf("ENTER THE NUMBER1\n");
+    scanf("%d",&num1);
+    printf("ENTER THE NUMBER2\n");
+    scanf("%d",&num2);
+
+    mangal(num1,num2,&sum,&sub,&mult,&div);
+    printf("THE SUM OF YOUR NUMBER1 AND NUMBER2 %d\n",sum);
+    printf("THE MULTIPLICATION OF YOUR NUMBER1 AND NUMBER2 %d\n",mult);
+    printf("THE DIVISION OF YOUR NUMBER1 AND NUMBER2 %f\n",div);
+    printf("THE SUBTRACTION OF YOUR NUMBER1 AND NUMBER2 %d\n",sub);
+
+
+
     return 0;
 }
