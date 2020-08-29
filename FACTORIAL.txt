@@ -20,7 +20,7 @@ for (i=1;i<=n; i++)
 
 }
 
-printf("THE FACTORIAL IS %d:\n", factorial);
+printf("The FACTORIAL IS %d:\n", factorial);
 
 
     return 0;
