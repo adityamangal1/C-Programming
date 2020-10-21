@@ -1,7 +1,10 @@
 # C-Programming
 Repository to store sample C programming example codes.
-
+</p> 
+<p align="center"><img src="https://img.shields.io/badge/Author-adityamangal-green.svg"> 
+</p>
 <p align="center">
+  
 
   </a>
   <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
