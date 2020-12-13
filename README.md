@@ -1,4 +1,3 @@
-
 # C-Programming
 Repository to store sample C programming example codes.
 </p> 
